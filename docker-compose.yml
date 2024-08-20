@@ -4,3 +4,9 @@
     build:
       context: .
       dockerfile: Proyecto Guiado 1/Dockerfile
+
+  proyectoguiado2:
+    image: proyectoguiado2
+    build:
+      context: .
+      dockerfile: ProyectoGuiado2/Dockerfile
