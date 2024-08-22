@@ -1,0 +1,12 @@
+﻿services:
+  proyecto guiado 1proyectoguiado1:
+    image: proyecto guiado 1proyectoguiado1
+    build:
+      context: .
+      dockerfile: Proyecto Guiado 1/Dockerfile
+
+  proyectoguiado2:
+    image: proyectoguiado2
+    build:
+      context: .
+      dockerfile: ProyectoGuiado2/Dockerfile
